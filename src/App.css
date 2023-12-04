@@ -34,7 +34,7 @@ body {
     transition:transform 0.3s ease;
 }
 .joke:hover{
-    transform:scale(1.05;
+    transform:scale(1.05);
 }
 .joke h3 {
     text-align: center;
