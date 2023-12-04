@@ -15,7 +15,7 @@ body {
     justify-content: center;
     margin-top: 40px;
     font-weight: 300;
-    font-size: 1px;
+    font-size: 18px;
 }
 .joke {
     width: 100%;
@@ -59,4 +59,28 @@ body {
     background-color: #020101;
     color: #fff;
     border: none;
+}
+@media only screen and (max-width:768px){
+    .joke{
+        font-size: 18px;
+        padding:15px;
+    }
+    .joke h3{
+        font-size: 18px;
+    }
+    .joke button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:480px){
+    .joke{
+        font-size: 15px;
+        padding:10px;
+    }
+    .joke h3{
+        font-size: 16px;
+    }
+    .joke button{
+        font-size: 12px;
+    }
 }
